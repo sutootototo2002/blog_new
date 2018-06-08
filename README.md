@@ -40,4 +40,11 @@ blog_new 一个个人blog系统，用于熟悉node+mysql后台管理系统
 
 
 
+  client项目结构：
+          
+          安装 $ vue init <template-name> <project-name>
+
+![](https://i.imgur.com/phrBWRT.png)
+
+![](https://i.imgur.com/xUSOXQ2.png)
 
