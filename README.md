@@ -26,10 +26,18 @@ blog_new 一个个人blog系统，用于熟悉node+mysql后台管理系统
    
   mysql或者mongodb
 
-5、项目搭建：
+6、项目搭建：
   
     vue-cli + node + express + mongodb +axios+vue-router
 
 ![](https://i.imgur.com/x1VOmBw.png)
+
+7、项目结构：
+
+  blog_new:
+          client(vue前端项目)
+          server（express服务器端项目）
+
+
 
 
