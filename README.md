@@ -40,7 +40,7 @@ blog_new 一个个人blog系统，用于熟悉node+mysql后台管理系统
 
 
 
-  client项目结构：
+  client项目结构：（前端）
           
           安装 $ vue init <template-name> <project-name>
 
@@ -48,3 +48,31 @@ blog_new 一个个人blog系统，用于熟悉node+mysql后台管理系统
 
 ![](https://i.imgur.com/xUSOXQ2.png)
 
+ server项目结构：（后台）
+
+     安装：$ npm install express-generator -g
+
+	$ express server
+	
+	   create : server
+	   create : server/package.json
+	   create : server/app.js
+	   create : server/public
+	   create : server/public/javascripts
+	   create : server/public/images
+	   create : server/routes
+	   create : server/routes/index.js
+	   create : server/routes/users.js
+	   create : server/public/stylesheets
+	   create : server/public/stylesheets/style.css
+	   create : server/views
+	   create : server/views/index.jade
+	   create : server/views/layout.jade
+	   create : server/views/error.jade
+	   create : server/bin
+	   create : server/bin/www
+
+	    $ cd server 
+	    $ npm install
+
+    $ DEBUG=myapp npm start
